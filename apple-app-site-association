@@ -1,22 +1,61 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appIDs": [
-                    "FQHA9FN6J6.com.sportsmillions.app",
-                    "FQHA9FN6J6.com.sportsmillions.pickem.app"
-                ],
-                "paths": [
-                    "*"
-                ]
+  "applinks": {
+    "details": [
+      {
+        "comment": "Blitzem app",
+        "appIDs": [
+          "FQHA9FN6J6.com.sportsmillions.app"
+        ],
+        "components": [
+          {
+            "/": "/blitzem/*"
+          },
+          {
+            "/": "/social-casino/*"
+          },
+          {
+            "/": "/v1/confirm-email/*"
+          },
+          {
+            "/": "/promotions/*"
+          }
+        ]
+      },
+      {
+        "comment": "Pickem app",
+        "appIDs": [
+          "FQHA9FN6J6.com.sportsmillions.pickem.app"
+        ],
+        "components": [
+          {
+            "/": "login"
+          },
+          {
+            "/": "register"
+          },
+          {
+            "/": "/v1/confirm-email/*"
+          },
+          {
+            "/": "/pickem/v1/confirm-email/*"
+          },
+          {
+            "/": "/pick-em/details/*"
+          },
+          {
+            "/": "/pick-em/*",
+            "?": {
+              "entry": "*"
             }
+          }
         ]
-    },
-    "webcredentials": {
-        "apps": [
-            "FQHA9FN6J6.com.sportsmillions.app",
-            "FQHA9FN6J6.com.sportsmillions.pickem.app"
-        ]
-    }
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "FQHA9FN6J6.com.sportsmillions.pickem.app",
+      "FQHA9FN6J6.com.sportsmillions.app"
+    ]
+  }
 }
