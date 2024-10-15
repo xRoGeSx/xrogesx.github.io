@@ -28,10 +28,10 @@
         ],
         "components": [
           {
-            "/": "login"
+            "/": "/login"
           },
           {
-            "/": "register"
+            "/": "/register"
           },
           {
             "/": "/v1/confirm-email/*"
