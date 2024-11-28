@@ -14,7 +14,10 @@
             "/": "/social-casino/*"
           },
           {
-            "/": "/v1/confirm-email/*?appName=blitzem",
+            "/": "/v1/confirm-email/*",
+            "?": {
+              "appName": "blitzem"
+            }
           },
           {
             "/": "/promotions/*"
@@ -34,7 +37,10 @@
             "/": "/register"
           },
           {
-            "/": "/v1/confirm-email/*?appName=pickem",
+            "/": "/v1/confirm-email/*",
+            "?": {
+              "appName": "pickem"
+            }
           },
           {
             "/": "/pick-em/details/*"
