@@ -34,10 +34,10 @@
             "/": "/register"
           },
           {
-            "/": "/v1/confirm-email/*"
-          },
-          {
-            "/": "/pickem/v1/confirm-email/*"
+            "/": "/v1/confirm-email/*",
+            "?": {
+              "appName": "pickem"
+            },
           },
           {
             "/": "/pick-em/details/*"
