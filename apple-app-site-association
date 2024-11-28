@@ -8,13 +8,6 @@
         ],
         "components": [
           {
-            "/": "/*/",
-            "?": {
-              "appName": "pickem"
-            },
-            exclude: true,
-          }
-          {
             "/": "/blitzem/*"
           },
           {
