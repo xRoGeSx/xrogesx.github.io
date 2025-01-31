@@ -8,6 +8,24 @@
         ],
         "components": [
           {
+            "/": "/login"
+          },
+          {
+            "/": "/register"
+          },
+          {
+            "/": "/promotions/*",
+            "?": {
+              "mobile": "social"
+            }
+          },
+          {
+            "/": "/promotions/*",
+            "?": {
+              "mobile": "all"
+            }
+          },
+          {
             "/": "/blitzem/*"
           },
           {
@@ -18,9 +36,6 @@
             "?": {
               "appName": "blitzem"
             }
-          },
-          {
-            "/": "/promotions/*"
           }
         ]
       },
@@ -37,10 +52,25 @@
             "/": "/register"
           },
           {
+            "/": "/promotions/*",
+            "?": {
+              "mobile": "pick-em"
+            }
+          },
+          {
+            "/": "/promotions/*",
+            "?": {
+              "mobile": "all"
+            }
+          },
+          {
             "/": "/v1/confirm-email",
             "?": {
               "appName": "pickem"
             }
+          },
+          {
+            "/": "/pickem/v1/confirm-email/*"
           },
           {
             "/": "/pick-em/details/*"
@@ -50,7 +80,7 @@
             "?": {
               "entry": "*"
             }
-          }
+          },
         ]
       }
     ]
