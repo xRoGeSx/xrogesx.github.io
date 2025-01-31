@@ -82,17 +82,6 @@
             }
           }
         ]
-      },
-      {
-        "comment": "Blitzem app fallback",
-        "appIDs": [
-          "FQHA9FN6J6.com.sportsmillions.app"
-        ],
-        "components": [
-          {
-            "/": "/promotions/*"
-          }
-        ]
       }
     ]
   },
