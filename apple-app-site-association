@@ -2,11 +2,14 @@
   "applinks": {
     "details": [
       {
-        "comment": "Blitzem app",
+        "comment": "Playfame app",
         "appIDs": [
-          "FQHA9FN6J6.com.sportsmillions.app"
+          "RKDXQ54Q28.com.playfame.app"
         ],
         "components": [
+          {
+            "/": "/v1/confirm-email/*"
+          },
           {
             "/": "/login"
           },
@@ -14,72 +17,55 @@
             "/": "/register"
           },
           {
-            "/": "/promotions/*",
+            "/": "/lobby/*",
             "?": {
-              "mobile": "social"
+              "category": "*"
             }
           },
           {
-            "/": "/promotions/*",
-            "?": {
-              "mobile": "all"
-            }
+            "/": "/gold-coins"
           },
           {
-            "/": "/blitzem/*"
+            "/": "/promotions/*"
           },
           {
-            "/": "/social-casino/*"
+            "/": "/providers/*"
           },
           {
-            "/": "/v1/confirm-email",
-            "?": {
-              "appName": "blitzem"
-            }
-          }
-        ]
-      },
-      {
-        "comment": "Pickem app",
-        "appIDs": [
-          "FQHA9FN6J6.com.sportsmillions.pickem.app"
-        ],
-        "components": [
-          {
-            "/": "/login"
+            "/": "/my-profile"
           },
           {
-            "/": "/register"
+            "/": "/slots/*"
           },
           {
-            "/": "/promotions/*",
-            "?": {
-              "mobile": "pick-em"
-            }
+            "/": "/recommended"
           },
           {
-            "/": "/promotions/*",
-            "?": {
-              "mobile": "all"
-            }
+            "/": "/live-dealer/*"
           },
           {
-            "/": "/v1/confirm-email",
-            "?": {
-              "appName": "pickem"
-            }
+            "/": "/privacy"
           },
           {
-            "/": "/pickem/v1/confirm-email/*"
+            "/": "/player-safety"
           },
           {
-            "/": "/pick-em/details/*"
+            "/": "/terms-of-service"
           },
           {
-            "/": "/pick-em/*",
-            "?": {
-              "entry": "*"
-            }
+            "/": "/sweepstakes-rules"
+          },
+          {
+            "/": "/about-us"
+          },
+          {
+            "/": "/hc/*"
+          },
+          {
+            "/": "/reset-password-manually"
+          },
+          {
+            "/": "refer-friend"
           }
         ]
       }
@@ -87,8 +73,7 @@
   },
   "webcredentials": {
     "apps": [
-      "FQHA9FN6J6.com.sportsmillions.pickem.app",
-      "FQHA9FN6J6.com.sportsmillions.app"
+      "RKDXQ54Q28.com.playfame.app"
     ]
   }
 }
