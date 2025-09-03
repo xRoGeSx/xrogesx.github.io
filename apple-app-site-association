@@ -26,6 +26,12 @@
             "/": "/gold-coins"
           },
           {
+            "/": "/redeem"
+          },
+          {
+            "/": "/transactions"
+          },
+          {
             "/": "/promotions/*"
           },
           {
