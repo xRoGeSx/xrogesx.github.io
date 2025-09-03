@@ -65,7 +65,7 @@
             "/": "/reset-password-manually"
           },
           {
-            "/": "refer-friend"
+            "/": "/refer-friend"
           }
         ]
       }
